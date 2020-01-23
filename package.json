@@ -2,7 +2,7 @@
   "name": "typescript-rest-api",
   "version": "1.0.0",
   "description": "TypesScript Rest Api with MysSql boilerplate",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "@types/compression": "^1.0.1",
     "@types/cors": "^2.8.6",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon --exec ts-node --files src/server.ts"
+    "start": "NODE_ENV=development nodemon --exec ts-node --files src/server.ts"
   },
   "repository": {
     "type": "git",
